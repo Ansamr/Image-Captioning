@@ -2,8 +2,7 @@ import streamlit as st
 import requests
 from PIL import Image
 from io import BytesIO
-from transformers import BlipProcessor, BlipForConditionalGeneration, GPT2Tokenizer, GPT2LMHeadModel
-from gtts import gTTS
+from transformers import BlipProcessor, BlipForConditionalGeneration
 import torch
 
 # Load the BLIP model for image captioning
